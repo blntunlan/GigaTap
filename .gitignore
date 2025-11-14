@@ -1,0 +1,117 @@
+# ========================================
+# Unity .gitignore — Professional Version
+# ========================================
+
+# --- Core Unity folders ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# --- Unity cache ---
+UserSettings/
+Artifacts/
+sysinfo.txt
+
+# --- Unity-generated files ---
+ExportedObj/
+.consulo/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.tmp
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# --- Crash & Debug ---
+*.stackdump
+*.log
+
+# --- Rider / JetBrains ---
+.idea/
+*.unityproj
+*.dotCover
+*.sln.iml
+
+# --- Visual Studio / VSCode ---
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.unityproj
+*.proj
+*.dbmdl
+*.jfm
+
+# --- MonoDevelop ---
+*.pidb
+*.userprefs
+
+# --- Gradle ---
+.gradle/
+**/gradle-wrapper.jar
+gradle-app.setting
+gradle-wrapper.properties
+
+# --- Android ---
+*.apk
+*.aab
+*.unitypackage
+*.keystore
+*.jks
+
+# --- iOS ---
+*.mode1v3
+*.mode2v3
+*.xcbkptlist
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.pbxuser
+*.pdb
+ios-build/
+
+# --- Addressables ---
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/StreamingAssets/aa/*
+
+# --- Auto-generated backups ---
+*.bak
+*.backup
+*.orig
+
+# --- TextMeshPro ---
+/Assets/TextMesh Pro/Resources/
+
+# --- Build Artifacts ---
+/Build/
+*.buildreport
+*.buildsettings
+*.apk
+*.unitypackage
+*.app
+
+# --- Crash Dumps ---
+*.dmp
+*.mdmp
+
+# --- Misc ---
+.DS_Store
+Thumbs.db
+
+# === You CAN keep these folders ===
+# Assets/
+# ProjectSettings/
+# Packages/
+# .gitignore
+# README.md
+
